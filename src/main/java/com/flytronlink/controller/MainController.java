@@ -14,6 +14,7 @@ public class MainController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public String index(){
         System.out.println("aaaa");
+        System.out.println("2222");
         return "index";
     }
 }
